@@ -229,10 +229,7 @@ export default class Menu {
 
         const creditsText = document.createElement("p");
         creditsText.innerHTML = `
-        <strong>Créateurs :</strong> Enzo Lamour et Thomas Smeeckaert<br>
-        <strong>Groupe :</strong> 8 <br>
-        <strong>Jeu vidéo préféré :</strong> CS2 <br>
-        <strong>Pourcentage :</strong> Enzo : 70% Thomas: 30%<br>
+        <strong>Créateurs :</strong> Gradlar <br>
     `;
         creditsText.style.color = "#000";
         modalContent.appendChild(creditsText);
